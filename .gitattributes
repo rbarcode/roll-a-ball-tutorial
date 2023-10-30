@@ -3,6 +3,8 @@
 *.cs diff=csharp text
 *.cginc text
 *.shader text
+*.cginc text
+*.txt text
 
 *.mat merge=unityyamlmerge eol=lf
 *.anim merge=unityyamlmerge eol=lf
@@ -17,6 +19,8 @@
 # Unity JSON files
 *.inputactions text linguist-language=json
 *.json text linguist-language=json
+*.shadergraph text linguist-language=json
+*.shadersubgraph text linguist-language=json
 
 # Unity Binary Assets
 *.cubemap lfs -text
