@@ -14,6 +14,10 @@
 *.meta merge=unityyamlmerge eol=lf
 *.controller merge=unityyamlmerge eol=lf
 
+# Unity JSON files
+*.inputactions text linguist-language=json
+*.json text linguist-language=json
+
 # Unity Binary Assets
 *.cubemap lfs -text
 *.unitypackage lfs -text
